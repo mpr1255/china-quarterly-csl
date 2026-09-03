@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.2/.schema/devbox.schema.json",
+  "packages": [
+    "diffutils",
+    "fontconfig",
+    "gnumake",
+    "pandoc@3.7.0.2",
+    "poppler-utils",
+    "qpdf",
+    "ripgrep",
+    "texliveMedium@2025",
+    "unifont"
+  ],
+  "shell": {
+    "scripts": {
+      "test": "make test",
+      "build-pdf": "make pdf",
+      "pdf-test": "make pdf-test"
+    }
+  }
+}
